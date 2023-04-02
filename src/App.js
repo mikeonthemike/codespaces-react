@@ -4,15 +4,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      
-      <canvas id="myCanvas" width="400" height="400"></canvas>
-      <script src="random-lines.js"></script>
-      <script>
-        const canvas = document.getElementById("myCanvas");
-        drawRandomLines(canvas, 10); // draws 10 random lines on the canvas
-      </script>
-
       </header>
+
+      <body>      
+        <canvas id="myCanvas" width="400" height="400"></canvas>
+        <script src="random-lines.js"></script>
+        <script>
+          const canvas = document.getElementById("myCanvas");
+          drawRandomLines(canvas, 10); // draws 10 random lines on the canvas
+        </script>
+      </body>
     </div>
   );
 }
